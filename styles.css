@@ -2,25 +2,30 @@
 :root{
 	background-color: rgb(135, 206, 235)
 }
-div:first-child{
-	background-color: black;
-	color: white;
+.aritcle_p p:first-child {
+    background-color: black;
+    color: white;
 }
-.aritcle_p:nth-child(2){
-	color: black;
+
+.aritcle_p p:nth-child(2) {
+    color: black;
 }
-.aritcle_p:last-child{
-	color: red;
+
+.aritcle_p p:last-child {
+    color: red;
 }
-.Item{
-	background-color: gray;
-	width: 50%;
-	padding: 10px;
+
+.Item {
+    background-color: gray;
+    width: 50%;
+    padding: 10px;
 }
-.odd{
-	background-color: white;
-	font-size: 22px;
+
+.odd, .Item:first-child, .Item:last-child {
+    background-color: white;
+    font-size: 22px;
 }
-.third{
-	background-color: pink;
+
+.Item:nth-last-child(3) {
+    background-color: pink;
 }
