@@ -6,10 +6,10 @@ div:first-child{
 	background-color: black;
 	color: white;
 }
-div:nth-child(2){
+.aritcle_p:nth-child(2){
 	color: black;
 }
-div:last-child{
+.aritcle_p:last-child{
 	color: red;
 }
 .Item{
