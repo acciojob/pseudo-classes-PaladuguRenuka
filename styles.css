@@ -1,7 +1,10 @@
 /*  your css code here. If applicable */
+:root{
+	background-color: rgb(135, 206, 235)
+}
 div:first-child{
-	color: white;
 	background-color: black;
+	color: white;
 }
 div:nth-child(2){
 	color: black;
